@@ -1,0 +1,15 @@
+{
+  "name": "api-veiculos",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de veículos",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Marcel Zanluca <marcel.zanluca@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  }
+}
