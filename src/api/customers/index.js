@@ -8,7 +8,7 @@ const customersModel = require("../../models/customers");
 routes.get("/", function(req, res) {
   customersModel
     .find()
-    .then(res.json)
+    .then(resposta => res.json(resposta))
     .catch(() => res.json({ msg: "Erro ao buscar os clientes!" }));
 });
 
