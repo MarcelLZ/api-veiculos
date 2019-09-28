@@ -21,7 +21,7 @@ routes.post("/", function(req, res) {
     .then(() => {
       res.json({ msg: "Cliente cadastrado." });
     })
-    .catch(() => res.json({ msg: "Erro ao cadastrar cliente." }));
+    .catch(() => res.json({ msg: "Erro ao cadastrar cliente!" }));
 });
 
 routes.put("/:id", function(req, res) {

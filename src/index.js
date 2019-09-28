@@ -12,7 +12,9 @@ const vehicles = require("./api/vehicles");
 app.use("/customers", customers);
 app.use("/vehicles", vehicles);
 
+const PORT = process.env.PORT || 3000;
+
 // Rodar a aplicação
-app.listen(3000, function() {
-  console.log("Estou rodando na porta 3000!");
+app.listen(PORT, function() {
+  console.log(`Estou rodando na porta ${PORT}!`);
 });
