@@ -9,7 +9,7 @@ routes.get("/", function(req, res) {
   customersModel
     .find()
     .then(res.json)
-    .catch(() => res.json({ msg: "Erro ao buscar os clientes." }));
+    .catch(() => res.json({ msg: "Erro ao buscar os clientes!" }));
 });
 
 routes.post("/", function(req, res) {
