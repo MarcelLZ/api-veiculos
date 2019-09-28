@@ -4,7 +4,7 @@
   "description": "API para gerenciamento de veículos",
   "main": "src/index.js",
   "scripts": {
-    "start": "node",
+    "start": "node src/index.js",
     "dev": "nodemon"
   },
   "author": "Marcel Zanluca <marcel.zanluca@gmail.com>",
